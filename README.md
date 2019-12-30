@@ -4,4 +4,5 @@ Desenvolvidor em PHP na versão mais atual utilizando boas práticas.
 
 Separando os branches por módulos.
 
-As configurações do Projeto estão na raiz no arquivo config.php
+As configurações de Banco estão na raiz no arquivo config.php
+
