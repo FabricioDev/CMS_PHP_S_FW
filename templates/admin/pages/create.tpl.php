@@ -3,7 +3,7 @@
 <form action="" method="post">
     <div class="form-group">
         <label for="pagesTitle">Título</label>
-        <input name="title" id="pagesTitle" type="text" class="form-control" placeholder="Insira o Título da Página...">
+        <input name="title" id="pagesTitle" type="text" class="form-control" placeholder="Insira o Título da Página..." required>
     </div>
 
     <div class="form-group">
@@ -17,11 +17,12 @@
     </div>
 
     <div class="form-group">
-        //Editor de Texto
+        <input id="pagesBody" type="hidden" name="body">
+        <trix-editor input="pagesBody"></trix-editor>
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
 </form>
 <hr>
 
-<a href="/admin/pages" class="btn btn-info">Voltar</a>
+<a href="/admin/pages" class="btn btn-info mb-4">Voltar</a>
