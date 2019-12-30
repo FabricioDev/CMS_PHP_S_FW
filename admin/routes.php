@@ -16,7 +16,7 @@ if(resolve('/admin')){
     render('admin/pages/edit', 'admin');
 
 } elseif(resolve('/admin/pages/(\d)+/delete')){
-    header('location: /admin/pages')
+    header('location: /admin/pages');
 
 } else {
     http_response_code(404);
